@@ -8,12 +8,12 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 public class Producto {
-    private Integer id;
+    private String id;
     private String nombre;
     private Double precio;
     private Integer stock;
 
-    public Producto(Integer id, String nombre, Double precio, Integer stock) {
+    public Producto(String id, String nombre, Double precio, Integer stock) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;

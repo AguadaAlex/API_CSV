@@ -1,2 +1,5 @@
-package com.test.API_CSV.task;public interface TaskSearchLogs {
+package com.test.API_CSV.task;
+
+public interface TaskSearchLogs {
+    void getLogsFromApiProductos();
 }
